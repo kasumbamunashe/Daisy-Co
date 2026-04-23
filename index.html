@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-
-  <!-- ═══ SEO META ═══ -->
-  <title>Daisy Concierge – Reliable Errand Services in Harare CBD, Mbare &amp; Granite Side</title>
-  <meta name="description"
-    content="Daisy Concierge offers reliable, transparent errand and concierge services in Harare — grocery shopping, bill payments, gift delivery, pick-up &amp; drop-off. Too busy? Let me handle it!">
-  <meta name="keywords"
-    content="errand services Harare, concierge Harare, grocery shopping Harare, CBD errand runner, Mbare delivery, Granite Side errands, bill payment service Zimbabwe, pick up drop off Harare">
+  <title>Daisy Concierge – Reliable Errand Services in Harare CBD, Mbare & Granite Side</title>
+  <meta name="description" content="Daisy Concierge offers reliable, transparent errand and concierge services in Harare — grocery shopping, bill payments, gift delivery, pick-up & drop-off. Too busy? Let me handle it!">
+  <meta name="keywords" content="errand services Harare, concierge Harare, grocery shopping Harare, CBD errand runner, Mbare delivery, Granite Side errands, bill payment service Zimbabwe, pick up drop off Harare">
   <meta name="author" content="Daisy Saruchera – Daisy Concierge">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#1A2340">
@@ -18,24 +13,21 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://daisyconcierge.co.zw/">
   <meta property="og:title" content="Daisy Concierge – Your Time. My Priority.">
-  <meta property="og:description"
-    content="Professional errand &amp; concierge services across Harare. Grocery shopping, deliveries, bill payments &amp; more. Reliable, transparent, stress-free.">
+  <meta property="og:description" content="Professional errand & concierge services across Harare. Grocery shopping, deliveries, bill payments & more. Reliable, transparent, stress-free.">
   <meta property="og:locale" content="en_ZW">
   <meta property="og:site_name" content="Daisy Concierge">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Daisy Concierge – Your Time. My Priority.">
-  <meta name="twitter:description"
-    content="Reliable errand &amp; concierge services in Harare CBD, Mbare &amp; Granite Side. Let me run your errands!">
-  <script
-    type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Daisy Concierge","description":"Reliable errand and concierge services in Harare – grocery shopping, gift delivery, pick-up &amp; drop-off, bill payments, and more.","url":"https://daisyconcierge.co.zw","telephone":["+2630718490398","+2630780687939"],"email":"daisysaruchera@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Harare","addressCountry":"ZW"},"geo":{"@type":"GeoCoordinates","latitude":-17.8292,"longitude":31.0522},"areaServed":["Harare CBD","Mbare","Granite Side"],"priceRange":"$$","openingHours":"Mo-Su 07:00-20:00","serviceType":["Errand Service","Grocery Shopping","Gift Delivery","Bill Payment","Pick-up and Drop-off"]}</script>
+  <meta name="twitter:description" content="Reliable errand & concierge services in Harare CBD, Mbare & Granite Side. Let me run your errands!">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Daisy Concierge","description":"Reliable errand and concierge services in Harare – grocery shopping, gift delivery, pick-up & drop-off, bill payments, and more.","url":"https://daisyconcierge.co.zw","telephone":["+2630718490398","+2630780687939"],"email":"daisysaruchera@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Harare","addressCountry":"ZW"},"geo":{"@type":"GeoCoordinates","latitude":-17.8292,"longitude":31.0522},"areaServed":["Harare CBD","Mbare","Granite Side"],"priceRange":"$$","openingHours":"Mo-Su 07:00-20:00","serviceType":["Errand Service","Grocery Shopping","Gift Delivery","Bill Payment","Pick-up and Drop-off"]}</script>
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+
   <style>
     :root {
       --gold: #D4A017;
       --gold-l: #F0C040;
+      --gold-d: #B8860B;
       --navy: #1A2340;
       --navy-m: #243050;
       --navy-d: #0D1628;
@@ -43,1102 +35,407 @@
       --white: #fff;
       --text: #1A1A2E;
       --text-m: #4A4A6A;
-      --sh: 0 20px 60px rgba(26, 35, 64, 0.15);
-      --sh-g: 0 8px 30px rgba(212, 160, 23, 0.3);
+      --sh: 0 20px 60px rgba(26,35,64,.15);
+      --sh-g: 0 8px 30px rgba(212,160,23,.3);
+      --rad: 22px;
     }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box
-    }
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box }
+    html { scroll-behavior:smooth; -webkit-text-size-adjust:100% }
+    body { font-family:'DM Sans',sans-serif; background:var(--cream); color:var(--text); overflow-x:hidden; -webkit-font-smoothing:antialiased }
 
-    html {
-      scroll-behavior: smooth
-    }
-
-    body {
-      font-family: 'DM Sans', sans-serif;
-      background: var(--cream);
-      color: var(--text);
-      overflow-x: hidden;
-    }
-
-    /* ── TOP NAV BAR ── FIX: no overlap, logo & links spaced properly */
+    /* ═══ NAV ═══ */
     nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 300;
-      background: rgba(13, 22, 40, 0.97);
-      backdrop-filter: blur(16px);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 12px 5%;
-      border-bottom: 1px solid rgba(212, 160, 23, 0.2);
-      flex-wrap: wrap;
-      gap: 16px;
+      position:fixed; top:0; left:0; right:0; z-index:300;
+      background:rgba(13,22,40,.97);
+      backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px);
+      border-bottom:1px solid rgba(212,160,23,.2);
+      padding:12px 5%;
+      display:flex; align-items:center; justify-content:space-between; gap:12px;
+      transition:padding .3s;
     }
+    nav.scrolled { padding:8px 5% }
 
-    nav.scrolled {
-      padding: 8px 5%;
-    }
-
-    .nav-logo {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-shrink: 0;
-    }
-
+    .nav-logo { display:flex; align-items:center; gap:10px; flex-shrink:0; text-decoration:none }
     .d-mark {
-      width: 38px;
-      height: 38px;
-      background: var(--gold);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Playfair Display', serif;
-      font-weight: 900;
-      font-size: 19px;
-      color: var(--navy);
-      animation: spinIn 0.8s cubic-bezier(.34, 1.56, .64, 1) both
+      width:36px; height:36px; border-radius:50%;
+      background:var(--gold);
+      display:flex; align-items:center; justify-content:center;
+      font-family:'Playfair Display',serif; font-weight:900; font-size:18px; color:var(--navy);
+      flex-shrink:0;
+      animation:spinIn .8s cubic-bezier(.34,1.56,.64,1) both;
     }
+    @keyframes spinIn { from{transform:rotate(-180deg) scale(0);opacity:0} to{transform:rotate(0) scale(1);opacity:1} }
 
-    @keyframes spinIn {
-      from {
-        transform: rotate(-180deg) scale(0);
-        opacity: 0
-      }
+    .brand-text { display:flex; flex-direction:column; min-width:0 }
+    .brand { font-family:'Playfair Display',serif; font-size:16px; font-weight:700; color:var(--gold); letter-spacing:.8px; white-space:nowrap }
+    .tagline { font-size:8px; color:rgba(255,255,255,.45); letter-spacing:1.8px; text-transform:uppercase; white-space:nowrap; margin-top:1px }
 
-      to {
-        transform: rotate(0) scale(1);
-        opacity: 1
-      }
+    /* hamburger */
+    .nav-hamburger {
+      display:none; flex-direction:column; gap:5px; cursor:pointer;
+      background:none; border:none; padding:6px; flex-shrink:0;
     }
-
-    .brand-text {
-      display: flex;
-      flex-direction: column;
+    .nav-hamburger span {
+      display:block; width:22px; height:2px; background:rgba(255,255,255,.7);
+      border-radius:2px; transition:all .3s;
     }
+    .nav-hamburger.open span:nth-child(1) { transform:translateY(7px) rotate(45deg) }
+    .nav-hamburger.open span:nth-child(2) { opacity:0 }
+    .nav-hamburger.open span:nth-child(3) { transform:translateY(-7px) rotate(-45deg) }
 
-    .brand {
-      font-family: 'Playfair Display', serif;
-      font-size: 17px;
-      font-weight: 700;
-      color: var(--gold);
-      letter-spacing: 1px;
-      white-space: nowrap;
-    }
-
-    .tagline {
-      font-size: 9px;
-      color: rgba(255, 255, 255, 0.5);
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      white-space: nowrap;
-    }
-
-    .nav-links {
-      display: flex;
-      flex-direction: row;
-      gap: 8px;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      align-items: center;
-      flex: 0 1 auto;
-    }
-
+    .nav-right { display:flex; align-items:center; gap:8px }
+    .nav-links { display:flex; flex-direction:row; gap:4px; list-style:none; align-items:center }
     .nav-links a {
-      color: rgba(255, 255, 255, 0.82);
-      text-decoration: none;
-      font-size: 13.5px;
-      font-weight: 500;
-      letter-spacing: 0.2px;
-      transition: all 0.25s;
-      padding: 7px 14px;
-      border-radius: 30px;
-      white-space: nowrap;
+      color:rgba(255,255,255,.78); text-decoration:none; font-size:13px; font-weight:500;
+      padding:7px 13px; border-radius:30px; transition:all .25s; white-space:nowrap;
     }
-
-    .nav-links a:hover {
-      color: var(--gold);
-      background: rgba(212, 160, 23, 0.12);
-    }
+    .nav-links a:hover { color:var(--gold); background:rgba(212,160,23,.12) }
 
     .nav-cta {
-      background: var(--gold);
-      color: var(--navy);
-      padding: 8px 22px;
-      border-radius: 40px;
-      font-weight: 700;
-      font-size: 13px;
-      text-decoration: none;
-      transition: all 0.3s;
-      white-space: nowrap;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      flex-shrink: 0;
-      box-shadow: 0 2px 10px rgba(212, 160, 23, 0.3);
+      background:var(--gold); color:var(--navy); padding:8px 20px; border-radius:40px;
+      font-weight:700; font-size:13px; text-decoration:none; white-space:nowrap;
+      display:inline-flex; align-items:center; gap:6px; flex-shrink:0;
+      box-shadow:0 2px 10px rgba(212,160,23,.3); transition:all .3s;
     }
+    .nav-cta:hover { background:var(--gold-l); transform:translateY(-1px); box-shadow:var(--sh-g) }
 
-    .nav-cta:hover {
-      background: var(--gold-l);
-      transform: translateY(-1px);
-      box-shadow: var(--sh-g);
-    }
-
-    /* responsive: prevent overlap on smaller screens */
-    @media (max-width: 780px) {
-      nav {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        padding: 10px 4%;
-      }
-
-      .nav-logo {
-        flex: 0 0 auto;
-      }
-
+    @media(max-width:760px) {
+      .nav-hamburger { display:flex }
       .nav-links {
-        order: 3;
-        flex: 1 1 100%;
-        justify-content: center;
-        gap: 6px;
+        display:none; position:absolute; top:100%; left:0; right:0;
+        background:rgba(13,22,40,.98); flex-direction:column; gap:4px;
+        padding:16px 5% 20px; border-bottom:1px solid rgba(212,160,23,.15);
       }
-
-      .nav-links a {
-        padding: 6px 12px;
-        font-size: 12px;
-      }
-
-      .nav-cta {
-        order: 2;
-        margin-left: auto;
-      }
-
-      .brand {
-        font-size: 15px;
-        white-space: nowrap;
-      }
-
-      .tagline {
-        font-size: 8px;
-      }
+      .nav-links.open { display:flex }
+      .nav-links a { padding:11px 16px; font-size:14px; width:100%; border-radius:12px }
+      .brand { font-size:14px }
+      .tagline { display:none }
+    }
+    @media(max-width:400px) {
+      .nav-cta { padding:7px 14px; font-size:12px }
+      .d-mark { width:32px; height:32px; font-size:16px }
+      .brand { font-size:13px }
     }
 
-    @media (max-width: 550px) {
-      .nav-links a {
-        padding: 5px 10px;
-        font-size: 11px;
-      }
-
-      .nav-cta {
-        padding: 6px 16px;
-        font-size: 11px;
-      }
-
-      .brand {
-        font-size: 13px;
-      }
-    }
-
-    /* HERO */
+    /* ═══ HERO ═══ */
     .hero {
-      min-height: 100vh;
-      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-m) 55%, var(--navy-d) 100%);
-      display: flex;
-      align-items: center;
-      padding: 120px 6% 80px;
-      position: relative;
-      overflow: hidden;
+      min-height:100svh;
+      background:linear-gradient(135deg, var(--navy) 0%, var(--navy-m) 55%, var(--navy-d) 100%);
+      display:flex; align-items:center;
+      padding:110px 6% 80px;
+      position:relative; overflow:hidden;
     }
-
-    .hero-particles {
-      position: absolute;
-      inset: 0;
-      pointer-events: none
-    }
-
+    .hero-particles { position:absolute; inset:0; pointer-events:none }
     .particle {
-      position: absolute;
-      border-radius: 50%;
-      background: rgba(212, 160, 23, 0.15);
-      animation: floatP linear infinite
+      position:absolute; border-radius:50%; background:rgba(212,160,23,.15);
+      animation:floatP linear infinite;
     }
-
     @keyframes floatP {
-      0% {
-        transform: translateY(100vh) scale(0);
-        opacity: 0
-      }
-
-      10% {
-        opacity: 1
-      }
-
-      90% {
-        opacity: 0.5
-      }
-
-      100% {
-        transform: translateY(-20vh) scale(1);
-        opacity: 0
-      }
+      0%{transform:translateY(100vh) scale(0);opacity:0}
+      10%{opacity:1} 90%{opacity:.5}
+      100%{transform:translateY(-20vh) scale(1);opacity:0}
     }
 
     .hero-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 70px;
-      align-items: center;
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      position: relative;
-      z-index: 2
+      display:grid; grid-template-columns:1fr 1fr; gap:60px;
+      align-items:center; width:100%; max-width:1200px; margin:0 auto; position:relative; z-index:2;
     }
-
     .hero-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(212, 160, 23, 0.12);
-      border: 1px solid rgba(212, 160, 23, 0.35);
-      border-radius: 30px;
-      padding: 8px 18px;
-      color: var(--gold);
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 2.5px;
-      text-transform: uppercase;
-      margin-bottom: 26px;
-      animation: fadeUp 0.7s ease both
+      display:inline-flex; align-items:center; gap:8px;
+      background:rgba(212,160,23,.12); border:1px solid rgba(212,160,23,.35);
+      border-radius:30px; padding:8px 18px; color:var(--gold);
+      font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase;
+      margin-bottom:24px; animation:fadeUp .7s ease both;
     }
-
     .hero h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(40px, 5vw, 66px);
-      font-weight: 900;
-      line-height: 1.08;
-      color: var(--white);
-      margin-bottom: 18px;
-      animation: fadeUp 0.7s 0.1s ease both
+      font-family:'Playfair Display',serif;
+      font-size:clamp(36px,4.8vw,64px); font-weight:900; line-height:1.09;
+      color:var(--white); margin-bottom:18px; animation:fadeUp .7s .1s ease both;
     }
-
-    .hero h1 span {
-      color: var(--gold)
-    }
-
+    .hero h1 span { color:var(--gold) }
     .hero-sub {
-      font-size: 17px;
-      color: rgba(255, 255, 255, 0.62);
-      line-height: 1.75;
-      margin-bottom: 38px;
-      font-weight: 300;
-      animation: fadeUp 0.7s 0.2s ease both
+      font-size:clamp(14px,1.6vw,17px); color:rgba(255,255,255,.6);
+      line-height:1.75; margin-bottom:36px; font-weight:300; animation:fadeUp .7s .2s ease both;
     }
-
-    .hero-actions {
-      display: flex;
-      gap: 14px;
-      flex-wrap: wrap;
-      animation: fadeUp 0.7s 0.3s ease both
-    }
+    .hero-actions { display:flex; gap:14px; flex-wrap:wrap; animation:fadeUp .7s .3s ease both }
 
     .btn-primary {
-      background: var(--gold);
-      color: var(--navy);
-      padding: 15px 34px;
-      border-radius: 50px;
-      font-weight: 700;
-      font-size: 15px;
-      text-decoration: none;
-      transition: all 0.3s;
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      position: relative;
-      overflow: hidden
+      background:var(--gold); color:var(--navy); padding:14px 30px; border-radius:50px;
+      font-weight:700; font-size:15px; text-decoration:none; transition:all .3s;
+      display:inline-flex; align-items:center; gap:8px; position:relative; overflow:hidden;
     }
-
     .btn-primary::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: rgba(255, 255, 255, 0.18);
-      transform: translateX(-100%);
-      transition: transform 0.4s
+      content:''; position:absolute; inset:0;
+      background:rgba(255,255,255,.18); transform:translateX(-100%); transition:transform .4s;
     }
-
-    .btn-primary:hover::after {
-      transform: translateX(0)
-    }
-
-    .btn-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: var(--sh-g)
-    }
+    .btn-primary:hover::after { transform:translateX(0) }
+    .btn-primary:hover { transform:translateY(-2px); box-shadow:var(--sh-g) }
 
     .btn-ghost {
-      border: 1.5px solid rgba(212, 160, 23, 0.5);
-      color: var(--gold);
-      padding: 15px 34px;
-      border-radius: 50px;
-      font-weight: 600;
-      font-size: 15px;
-      text-decoration: none;
-      transition: all 0.3s
+      border:1.5px solid rgba(212,160,23,.5); color:var(--gold);
+      padding:14px 30px; border-radius:50px; font-weight:600; font-size:15px;
+      text-decoration:none; transition:all .3s;
     }
-
-    .btn-ghost:hover {
-      border-color: var(--gold);
-      background: rgba(212, 160, 23, 0.08);
-      transform: translateY(-2px)
-    }
+    .btn-ghost:hover { border-color:var(--gold); background:rgba(212,160,23,.08); transform:translateY(-2px) }
 
     .hero-card {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(212, 160, 23, 0.2);
-      border-radius: 28px;
-      padding: 32px 36px 36px;
-      backdrop-filter: blur(12px);
-      animation: fadeUp 0.7s 0.15s ease both
+      background:rgba(255,255,255,.05); border:1px solid rgba(212,160,23,.2);
+      border-radius:28px; padding:30px 34px 34px;
+      backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px);
+      animation:fadeUp .7s .15s ease both;
     }
-
-    .hero-card h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 23px;
-      color: var(--gold);
-      margin-bottom: 8px
-    }
-
-    .hero-card>p {
-      color: rgba(255, 255, 255, 0.62);
-      font-size: 14px;
-      line-height: 1.75;
-      margin-bottom: 18px
-    }
+    .hero-card h3 { font-family:'Playfair Display',serif; font-size:21px; color:var(--gold); margin-bottom:8px }
+    .hero-card > p { color:rgba(255,255,255,.6); font-size:13.5px; line-height:1.7; margin-bottom:18px }
 
     #runnerCanvas {
-      width: 100%;
-      height: 150px;
-      border-radius: 12px;
-      background: rgba(0, 0, 0, 0.22);
-      border: 1px solid rgba(212, 160, 23, 0.15);
-      display: block;
-      margin-bottom: 20px
+      width:100%; height:160px; border-radius:14px;
+      background:rgba(0,0,0,.25); border:1px solid rgba(212,160,23,.15);
+      display:block; margin-bottom:20px;
     }
 
-    .mini-stats {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 14px;
-      border-top: 1px solid rgba(212, 160, 23, 0.15);
-      padding-top: 18px
+    .mini-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; border-top:1px solid rgba(212,160,23,.15); padding-top:18px }
+    .stat { text-align:center }
+    .num { font-family:'Playfair Display',serif; font-size:28px; font-weight:700; color:var(--gold); display:block }
+    .lbl { font-size:10px; color:rgba(255,255,255,.4); letter-spacing:.5px; margin-top:3px }
+
+    @media(max-width:900px) {
+      .hero-grid { grid-template-columns:1fr; gap:40px }
+      .hero { padding:100px 5% 60px }
+    }
+    @media(max-width:560px) {
+      .hero-actions { flex-direction:column }
+      .btn-primary, .btn-ghost { text-align:center; justify-content:center }
+      .hero-card { padding:22px 20px 26px }
+      #runnerCanvas { height:130px }
     }
 
-    .stat {
-      text-align: center
-    }
+    /* ═══ MARQUEE ═══ */
+    .marquee-wrap { background:var(--gold); overflow:hidden; padding:13px 0; white-space:nowrap }
+    .marquee-inner { display:inline-block; animation:marquee 22s linear infinite }
+    .marquee-inner span { font-size:12.5px; font-weight:700; color:var(--navy); letter-spacing:1.5px; text-transform:uppercase; margin:0 26px }
+    @keyframes marquee { from{transform:translateX(0)} to{transform:translateX(-50%)} }
 
-    .num {
-      font-family: 'Playfair Display', serif;
-      font-size: 28px;
-      font-weight: 700;
-      color: var(--gold);
-      display: block
-    }
+    /* ═══ SECTION BASE ═══ */
+    section { padding:90px 6% }
+    .sec-hd { text-align:center; margin-bottom:56px }
+    .eyebrow { font-size:11px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:var(--gold); margin-bottom:12px }
+    .sec-title { font-family:'Playfair Display',serif; font-size:clamp(28px,3.8vw,48px); font-weight:800; line-height:1.15 }
+    .sec-title span { color:var(--gold) }
+    .sec-sub { color:var(--text-m); font-size:15px; max-width:520px; margin:14px auto 0; line-height:1.7 }
 
-    .lbl {
-      font-size: 11px;
-      color: rgba(255, 255, 255, 0.42);
-      letter-spacing: 0.5px;
-      margin-top: 3px
-    }
-
-    /* MARQUEE */
-    .marquee-wrap {
-      background: var(--gold);
-      overflow: hidden;
-      padding: 13px 0;
-      white-space: nowrap
-    }
-
-    .marquee-inner {
-      display: inline-block;
-      animation: marquee 20s linear infinite
-    }
-
-    .marquee-inner span {
-      font-size: 13px;
-      font-weight: 700;
-      color: var(--navy);
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      margin: 0 28px
-    }
-
-    @keyframes marquee {
-      from {
-        transform: translateX(0)
-      }
-
-      to {
-        transform: translateX(-50%)
-      }
-    }
-
-    /* SECTION BASE */
-    section {
-      padding: 100px 6%
-    }
-
-    .sec-hd {
-      text-align: center;
-      margin-bottom: 58px
-    }
-
-    .eyebrow {
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 12px
-    }
-
-    .sec-title {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(30px, 4vw, 50px);
-      font-weight: 800;
-      line-height: 1.15
-    }
-
-    .sec-title span {
-      color: var(--gold)
-    }
-
-    .sec-sub {
-      color: var(--text-m);
-      font-size: 15px;
-      max-width: 520px;
-      margin: 14px auto 0;
-      line-height: 1.7
-    }
-
-    /* SERVICES */
-    .services {
-      background: var(--white)
-    }
-
-    .svc-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-      max-width: 1200px;
-      margin: 0 auto
-    }
-
+    /* ═══ SERVICES ═══ */
+    .services { background:var(--white) }
+    .svc-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; max-width:1200px; margin:0 auto }
     .svc-card {
-      background: var(--cream);
-      border-radius: 22px;
-      padding: 32px 26px;
-      border: 1px solid rgba(212, 160, 23, 0.1);
-      transition: all 0.4s cubic-bezier(.34, 1.56, .64, 1);
-      position: relative;
-      overflow: hidden;
-      cursor: default
+      background:var(--cream); border-radius:20px; padding:30px 24px;
+      border:1px solid rgba(212,160,23,.1);
+      transition:all .4s cubic-bezier(.34,1.56,.64,1);
+      position:relative; overflow:hidden;
     }
-
     .svc-card::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(212, 160, 23, 0.07) 0%, transparent 60%);
-      opacity: 0;
-      transition: opacity 0.4s
+      content:''; position:absolute; inset:0;
+      background:linear-gradient(135deg,rgba(212,160,23,.07) 0%,transparent 60%);
+      opacity:0; transition:opacity .4s;
     }
-
     .svc-card::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 3px;
-      background: var(--gold);
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform 0.4s
+      content:''; position:absolute; bottom:0; left:0; right:0; height:3px;
+      background:var(--gold); transform:scaleX(0); transform-origin:left; transition:transform .4s;
     }
-
-    .svc-card:hover {
-      transform: translateY(-8px);
-      box-shadow: var(--sh)
-    }
-
-    .svc-card:hover::before {
-      opacity: 1
-    }
-
-    .svc-card:hover::after {
-      transform: scaleX(1)
-    }
+    .svc-card:hover { transform:translateY(-8px); box-shadow:var(--sh) }
+    .svc-card:hover::before { opacity:1 }
+    .svc-card:hover::after { transform:scaleX(1) }
 
     .svc-icon {
-      width: 52px;
-      height: 52px;
-      border-radius: 14px;
-      background: linear-gradient(135deg, var(--gold), var(--gold-l));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 24px;
-      margin-bottom: 18px;
-      transition: transform 0.4s cubic-bezier(.34, 1.56, .64, 1)
+      width:50px; height:50px; border-radius:14px;
+      background:linear-gradient(135deg,var(--gold),var(--gold-l));
+      display:flex; align-items:center; justify-content:center; font-size:22px;
+      margin-bottom:16px; transition:transform .4s cubic-bezier(.34,1.56,.64,1);
     }
+    .svc-card:hover .svc-icon { transform:scale(1.15) rotate(-5deg) }
+    .svc-card h3 { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; margin-bottom:8px }
+    .svc-card p { color:var(--text-m); font-size:13.5px; line-height:1.7 }
 
-    .svc-card:hover .svc-icon {
-      transform: scale(1.15) rotate(-5deg)
-    }
+    @media(max-width:860px) { .svc-grid { grid-template-columns:1fr 1fr } }
+    @media(max-width:500px) { .svc-grid { grid-template-columns:1fr } }
 
-    .svc-card h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 19px;
-      font-weight: 700;
-      margin-bottom: 8px
-    }
-
-    .svc-card p {
-      color: var(--text-m);
-      font-size: 13.5px;
-      line-height: 1.7
-    }
-
-    /* HOW IT WORKS */
-    .how {
-      background: var(--navy);
-      color: var(--white)
-    }
-
-    .how .sec-title {
-      color: var(--white)
-    }
-
-    .how .sec-sub {
-      color: rgba(255, 255, 255, 0.5)
-    }
-
-    .steps {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 28px;
-      max-width: 1200px;
-      margin: 0 auto;
-      position: relative
-    }
-
+    /* ═══ HOW IT WORKS ═══ */
+    .how { background:var(--navy); color:var(--white) }
+    .how .sec-title { color:var(--white) }
+    .how .sec-sub { color:rgba(255,255,255,.5) }
+    .steps { display:grid; grid-template-columns:repeat(4,1fr); gap:26px; max-width:1200px; margin:0 auto; position:relative }
     .steps::before {
-      content: '';
-      position: absolute;
-      top: 34px;
-      left: 12%;
-      right: 12%;
-      height: 1px;
-      background: linear-gradient(90deg, transparent, var(--gold), transparent)
+      content:''; position:absolute; top:34px; left:12%; right:12%; height:1px;
+      background:linear-gradient(90deg,transparent,var(--gold),transparent);
     }
-
-    .step {
-      text-align: center
-    }
-
+    .step { text-align:center }
     .step-num {
-      width: 68px;
-      height: 68px;
-      border-radius: 50%;
-      background: var(--gold);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Playfair Display', serif;
-      font-size: 26px;
-      font-weight: 800;
-      color: var(--navy);
-      margin: 0 auto 22px;
-      position: relative;
-      z-index: 1;
-      box-shadow: 0 0 0 10px rgba(212, 160, 23, 0.12);
-      transition: transform 0.4s cubic-bezier(.34, 1.56, .64, 1), box-shadow 0.4s
+      width:68px; height:68px; border-radius:50%; background:var(--gold);
+      display:flex; align-items:center; justify-content:center;
+      font-family:'Playfair Display',serif; font-size:26px; font-weight:800; color:var(--navy);
+      margin:0 auto 22px; position:relative; z-index:1;
+      box-shadow:0 0 0 10px rgba(212,160,23,.12);
+      transition:transform .4s cubic-bezier(.34,1.56,.64,1), box-shadow .4s;
     }
+    .step:hover .step-num { transform:scale(1.15); box-shadow:0 0 0 18px rgba(212,160,23,.08),var(--sh-g) }
+    .step h3 { font-size:15px; font-weight:600; margin-bottom:10px; color:var(--gold) }
+    .step p { font-size:13.5px; color:rgba(255,255,255,.55); line-height:1.7 }
 
-    .step:hover .step-num {
-      transform: scale(1.15);
-      box-shadow: 0 0 0 18px rgba(212, 160, 23, 0.08), var(--sh-g)
-    }
+    @media(max-width:860px) { .steps { grid-template-columns:1fr 1fr } .steps::before { display:none } }
+    @media(max-width:500px) { .steps { grid-template-columns:1fr } }
 
-    .step h3 {
-      font-size: 15px;
-      font-weight: 600;
-      margin-bottom: 10px;
-      color: var(--gold)
-    }
-
-    .step p {
-      font-size: 13.5px;
-      color: rgba(255, 255, 255, 0.55);
-      line-height: 1.7
-    }
-
-    /* AREAS */
-    .areas {
-      background: var(--cream)
-    }
-
-    .areas-inner {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 70px;
-      align-items: center
-    }
+    /* ═══ AREAS ═══ */
+    .areas { background:var(--cream) }
+    .areas-inner { max-width:1100px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center }
 
     .areas-visual {
-      background: var(--navy);
-      border-radius: 26px;
-      padding: 44px;
-      text-align: center;
-      position: relative;
-      overflow: hidden
+      background:var(--navy); border-radius:26px; padding:44px; text-align:center;
+      position:relative; overflow:hidden;
     }
-
     .areas-visual::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(circle at 50% 30%, rgba(212, 160, 23, 0.18) 0%, transparent 60%);
-      animation: pulseGlow 3s ease-in-out infinite
+      content:''; position:absolute; inset:0;
+      background:radial-gradient(circle at 50% 30%,rgba(212,160,23,.18) 0%,transparent 60%);
+      animation:pulseGlow 3s ease-in-out infinite;
     }
+    @keyframes pulseGlow { 0%,100%{opacity:.6} 50%{opacity:1} }
 
-    @keyframes pulseGlow {
+    .map-pin { font-size:56px; margin-bottom:18px; position:relative; z-index:1; display:block; animation:mapBounce 1.8s ease-in-out infinite }
+    @keyframes mapBounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
 
-      0%,
-      100% {
-        opacity: 0.6
-      }
-
-      50% {
-        opacity: 1
-      }
-    }
-
-    .map-pin {
-      font-size: 60px;
-      margin-bottom: 18px;
-      position: relative;
-      z-index: 1;
-      display: block;
-      animation: mapBounce 1.8s ease-in-out infinite
-    }
-
-    @keyframes mapBounce {
-
-      0%,
-      100% {
-        transform: translateY(0)
-      }
-
-      50% {
-        transform: translateY(-12px)
-      }
-    }
-
-    .area-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: center;
-      position: relative;
-      z-index: 1
-    }
-
+    .area-tags { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; position:relative; z-index:1 }
     .area-tag {
-      background: rgba(212, 160, 23, 0.12);
-      border: 1px solid rgba(212, 160, 23, 0.35);
-      color: var(--gold);
-      padding: 7px 18px;
-      border-radius: 30px;
-      font-weight: 600;
-      font-size: 14px;
-      letter-spacing: 0.8px;
-      transition: all 0.3s;
-      cursor: default
+      background:rgba(212,160,23,.12); border:1px solid rgba(212,160,23,.35); color:var(--gold);
+      padding:7px 18px; border-radius:30px; font-weight:600; font-size:14px; letter-spacing:.8px;
+      transition:all .3s;
     }
+    .area-tag:hover { background:rgba(212,160,23,.25); transform:scale(1.06) }
+    .area-tag.main { background:var(--gold); color:var(--navy); border-color:var(--gold) }
+    .area-tag.main:hover { background:var(--gold-l) }
 
-    .area-tag:hover {
-      background: rgba(212, 160, 23, 0.25);
-      transform: scale(1.06)
-    }
-
-    .area-tag.main {
-      background: var(--gold);
-      color: var(--navy);
-      border-color: var(--gold)
-    }
-
-    .area-tag.main:hover {
-      background: var(--gold-l)
-    }
-
-    .areas-text .sec-hd {
-      text-align: left;
-      margin-bottom: 28px
-    }
-
-    .trust-list {
-      list-style: none
-    }
-
+    .areas-text .sec-hd { text-align:left; margin-bottom:28px }
+    .trust-list { list-style:none }
     .trust-list li {
-      display: flex;
-      align-items: flex-start;
-      gap: 13px;
-      padding: 15px 0;
-      border-bottom: 1px solid rgba(212, 160, 23, 0.1);
-      font-size: 14.5px;
-      line-height: 1.6;
-      transition: transform 0.3s
+      display:flex; align-items:flex-start; gap:13px;
+      padding:15px 0; border-bottom:1px solid rgba(212,160,23,.1);
+      font-size:14.5px; line-height:1.6; transition:transform .3s;
     }
-
-    .trust-list li:hover {
-      transform: translateX(6px)
-    }
-
-    .trust-list li:last-child {
-      border-bottom: none
-    }
-
+    .trust-list li:hover { transform:translateX(6px) }
+    .trust-list li:last-child { border-bottom:none }
     .chk {
-      width: 27px;
-      height: 27px;
-      border-radius: 50%;
-      flex-shrink: 0;
-      background: linear-gradient(135deg, var(--gold), var(--gold-l));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--navy);
-      font-size: 12px;
-      font-weight: 700;
-      transition: transform 0.5s
+      width:27px; height:27px; border-radius:50%; flex-shrink:0;
+      background:linear-gradient(135deg,var(--gold),var(--gold-l));
+      display:flex; align-items:center; justify-content:center;
+      color:var(--navy); font-size:12px; font-weight:700; transition:transform .5s;
     }
+    .trust-list li:hover .chk { transform:rotate(360deg) scale(1.1) }
+    .trust-list strong { display:block; font-weight:600; color:var(--text) }
+    .trust-list span { color:var(--text-m); font-size:13px }
 
-    .trust-list li:hover .chk {
-      transform: rotate(360deg) scale(1.1)
-    }
+    @media(max-width:860px) { .areas-inner { grid-template-columns:1fr; gap:40px } }
 
-    .trust-list strong {
-      display: block;
-      font-weight: 600;
-      color: var(--text)
-    }
-
-    .trust-list span {
-      color: var(--text-m);
-      font-size: 13px
-    }
-
-    /* CONTACT */
+    /* ═══ CONTACT ═══ */
     .contact {
-      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-d) 100%);
-      color: var(--white);
-      text-align: center;
-      position: relative;
-      overflow: hidden
+      background:linear-gradient(135deg,var(--navy) 0%,var(--navy-d) 100%);
+      color:var(--white); text-align:center; position:relative; overflow:hidden;
     }
-
     .contact::before {
-      content: '';
-      position: absolute;
-      top: -200px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 900px;
-      height: 500px;
-      background: radial-gradient(ellipse, rgba(212, 160, 23, 0.1) 0%, transparent 65%);
-      animation: pulseGlow 4s ease-in-out infinite
+      content:''; position:absolute; top:-200px; left:50%; transform:translateX(-50%);
+      width:900px; height:500px;
+      background:radial-gradient(ellipse,rgba(212,160,23,.1) 0%,transparent 65%);
+      animation:pulseGlow 4s ease-in-out infinite;
     }
+    .contact .sec-title { color:var(--white) }
+    .contact .sec-sub { color:rgba(255,255,255,.5) }
 
-    .contact .sec-title {
-      color: var(--white)
-    }
-
-    .contact .sec-sub {
-      color: rgba(255, 255, 255, 0.5)
-    }
-
-    .contact-cards {
-      display: flex;
-      justify-content: center;
-      gap: 22px;
-      flex-wrap: wrap;
-      margin-top: 46px;
-      position: relative;
-      z-index: 1
-    }
-
+    .contact-cards { display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-top:44px; position:relative; z-index:1 }
     .contact-card {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(212, 160, 23, 0.2);
-      border-radius: 20px;
-      padding: 28px 36px;
-      min-width: 210px;
-      transition: all 0.35s;
-      text-decoration: none;
-      animation: cardFloat 3s ease-in-out infinite
+      background:rgba(255,255,255,.05); border:1px solid rgba(212,160,23,.2);
+      border-radius:20px; padding:26px 32px; min-width:190px;
+      transition:all .35s; text-decoration:none; display:block;
+      animation:cardFloat 3s ease-in-out infinite;
     }
+    .contact-card:nth-child(2) { animation-delay:.6s }
+    .contact-card:nth-child(3) { animation-delay:1.2s }
+    @keyframes cardFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-7px)} }
+    .contact-card:hover { background:rgba(212,160,23,.1); border-color:var(--gold); box-shadow:var(--sh-g); animation-play-state:paused }
+    .contact-card .icon { font-size:28px; margin-bottom:10px }
+    .contact-card .lbl2 { font-size:10px; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,.35); margin-bottom:5px }
+    .contact-card .val { font-size:15px; font-weight:600; color:var(--white) }
 
-    .contact-card:nth-child(2) {
-      animation-delay: 0.6s
-    }
-
-    .contact-card:nth-child(3) {
-      animation-delay: 1.2s
-    }
-
-    @keyframes cardFloat {
-
-      0%,
-      100% {
-        transform: translateY(0)
-      }
-
-      50% {
-        transform: translateY(-7px)
-      }
-    }
-
-    .contact-card:hover {
-      background: rgba(212, 160, 23, 0.1);
-      border-color: var(--gold);
-      box-shadow: var(--sh-g);
-      animation-play-state: paused
-    }
-
-    .contact-card .icon {
-      font-size: 30px;
-      margin-bottom: 10px
-    }
-
-    .contact-card .lbl2 {
-      font-size: 10px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: rgba(255, 255, 255, 0.35);
-      margin-bottom: 5px
-    }
-
-    .contact-card .val {
-      font-size: 16px;
-      font-weight: 600;
-      color: var(--white)
-    }
-
-    .contact-card .val a {
-      color: inherit;
-      text-decoration: none
+    @media(max-width:500px) {
+      .contact-cards { flex-direction:column; align-items:stretch; padding:0 4% }
+      .contact-card { min-width:unset; padding:22px 24px; animation:none }
     }
 
     .note-box {
-      max-width: 620px;
-      margin: 54px auto 0;
-      background: rgba(212, 160, 23, 0.07);
-      border: 1px solid rgba(212, 160, 23, 0.2);
-      border-radius: 18px;
-      padding: 28px;
-      position: relative;
-      z-index: 1
+      max-width:600px; margin:50px auto 0;
+      background:rgba(212,160,23,.07); border:1px solid rgba(212,160,23,.2);
+      border-radius:18px; padding:26px; position:relative; z-index:1;
     }
+    .note-box h4 { font-family:'Playfair Display',serif; font-size:18px; color:var(--gold); margin-bottom:10px }
+    .note-box p { color:rgba(255,255,255,.6); font-size:14px; line-height:1.8 }
 
-    .note-box h4 {
-      font-family: 'Playfair Display', serif;
-      font-size: 19px;
-      color: var(--gold);
-      margin-bottom: 10px
-    }
-
-    .note-box p {
-      color: rgba(255, 255, 255, 0.6);
-      font-size: 14px;
-      line-height: 1.8
-    }
-
-    /* FOOTER */
+    /* ═══ FOOTER ═══ */
     footer {
-      background: #080D1A;
-      padding: 26px 6%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-      border-top: 1px solid rgba(212, 160, 23, 0.12)
+      background:#080D1A; padding:24px 6%;
+      display:flex; align-items:center; justify-content:space-between;
+      flex-wrap:wrap; gap:12px; border-top:1px solid rgba(212,160,23,.12);
     }
+    footer p { color:rgba(255,255,255,.3); font-size:12px }
+    footer span { color:var(--gold) }
+    .footer-links { display:flex; gap:18px }
+    .footer-links a { color:rgba(255,255,255,.35); font-size:12px; text-decoration:none; transition:color .3s }
+    .footer-links a:hover { color:var(--gold) }
+    @media(max-width:500px) { footer { flex-direction:column; text-align:center } }
 
-    footer p {
-      color: rgba(255, 255, 255, 0.3);
-      font-size: 12.5px
-    }
+    /* ═══ ANIMATIONS ═══ */
+    @keyframes fadeUp { from{opacity:0;transform:translateY(28px)} to{opacity:1;transform:none} }
+    .reveal { opacity:0; transform:translateY(26px); transition:opacity .7s ease,transform .7s ease }
+    .reveal.visible { opacity:1; transform:none }
 
-    footer span {
-      color: var(--gold)
-    }
-
-    .footer-links {
-      display: flex;
-      gap: 20px
-    }
-
-    .footer-links a {
-      color: rgba(255, 255, 255, 0.35);
-      font-size: 12px;
-      text-decoration: none;
-      transition: color 0.3s
-    }
-
-    .footer-links a:hover {
-      color: var(--gold)
-    }
-
-    /* ANIMATIONS */
-    @keyframes fadeUp {
-      from {
-        opacity: 0;
-        transform: translateY(28px)
-      }
-
-      to {
-        opacity: 1;
-        transform: none
-      }
-    }
-
-    .reveal {
-      opacity: 0;
-      transform: translateY(26px);
-      transition: opacity 0.7s ease, transform 0.7s ease
-    }
-
-    .reveal.visible {
-      opacity: 1;
-      transform: none
-    }
-
-    @media(max-width:960px) {
-
-      .hero-grid,
-      .areas-inner {
-        grid-template-columns: 1fr;
-        gap: 44px
-      }
-
-      .svc-grid {
-        grid-template-columns: 1fr 1fr
-      }
-
-      .steps {
-        grid-template-columns: 1fr 1fr
-      }
-
-      .steps::before {
-        display: none
-      }
-    }
-
-    @media(max-width:580px) {
-
-      .svc-grid,
-      .steps {
-        grid-template-columns: 1fr
-      }
-
-      .hero-actions {
-        flex-direction: column
-      }
-
-      footer {
-        flex-direction: column;
-        text-align: center
-      }
-    }
-
-    /* floating WhatsApp */
+    /* ═══ WhatsApp float ═══ */
     .wa-float {
-      position: fixed;
-      bottom: 28px;
-      right: 28px;
-      z-index: 999;
-      background: #25D366;
-      color: #fff;
-      width: 58px;
-      height: 58px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 28px;
-      text-decoration: none;
-      box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45);
-      transition: transform 0.3s, box-shadow 0.3s;
-      animation: waPulse 2.5s ease-in-out infinite;
+      position:fixed; bottom:24px; right:24px; z-index:999;
+      background:#25D366; color:#fff;
+      width:56px; height:56px; border-radius:50%;
+      display:flex; align-items:center; justify-content:center;
+      font-size:26px; text-decoration:none;
+      box-shadow:0 4px 20px rgba(37,211,102,.45);
+      transition:transform .3s,box-shadow .3s;
+      animation:waPulse 2.5s ease-in-out infinite;
     }
-
-    .wa-float:hover {
-      transform: scale(1.12);
-      box-shadow: 0 6px 28px rgba(37, 211, 102, 0.65);
-      animation: none;
-    }
-
+    .wa-float:hover { transform:scale(1.12); box-shadow:0 6px 28px rgba(37,211,102,.65); animation:none }
     @keyframes waPulse {
-
-      0%,
-      100% {
-        box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45);
-      }
-
-      50% {
-        box-shadow: 0 4px 32px rgba(37, 211, 102, 0.75), 0 0 0 10px rgba(37, 211, 102, 0.1);
-      }
-      
+      0%,100%{box-shadow:0 4px 20px rgba(37,211,102,.45)}
+      50%{box-shadow:0 4px 32px rgba(37,211,102,.75),0 0 0 10px rgba(37,211,102,.1)}
     }
+    @media(max-width:500px) { .wa-float { bottom:18px; right:18px; width:50px; height:50px; font-size:22px } }
   </style>
 </head>
-
 <body>
 
   <nav id="mainNav" aria-label="Main navigation">
-    <div class="nav-logo">
+    <a class="nav-logo" href="#" aria-label="Daisy Concierge home">
       <div class="d-mark" aria-hidden="true">D</div>
       <div class="brand-text">
         <div class="brand">DAISY CONCIERGE</div>
         <div class="tagline">Your Time. Your Errands. My Priority.</div>
       </div>
+    </a>
+
+    <button class="nav-hamburger" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav-right">
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#areas">Coverage</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="https://wa.me/2630718490398" class="nav-cta" target="_blank" rel="noopener noreferrer">📲 Book Now</a>
     </div>
-    <ul class="nav-links" role="list">
-      <li><a href="#services">Services</a></li>
-      <li><a href="#how">How It Works</a></li>
-      <li><a href="#areas">Coverage</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <!-- BOOK NOW button redirects to WhatsApp -->
-    <a href="https://wa.me/2630718490398" class="nav-cta" target="_blank" rel="noopener noreferrer">📲 Book Now</a>
   </nav>
 
   <section class="hero" aria-labelledby="hero-heading">
@@ -1147,27 +444,20 @@
       <div>
         <div class="hero-badge">✦ Reliable Errand Services – CBD &amp; Beyond</div>
         <h1 id="hero-heading">Too busy?<br>Let me handle <span>it for you.</span></h1>
-        <p class="hero-sub">Professional errand &amp; concierge services across Harare. Your time is precious — I run
-          your errands so you don't have to.</p>
+        <p class="hero-sub">Professional errand &amp; concierge services across Harare. Your time is precious — I run your errands so you don't have to.</p>
         <div class="hero-actions">
-          <a href="https://wa.me/2630718490398" target="_blank" class="btn-primary">📞 Get Started Today</a>
+          <a href="https://wa.me/2630718490398" target="_blank" rel="noopener noreferrer" class="btn-primary">📞 Get Started Today</a>
           <a href="#services" class="btn-ghost">See What I Offer</a>
         </div>
       </div>
       <div class="hero-card">
         <h3>I run your errands,<br>so you don't have to!</h3>
         <p>Transparent, reliable, handled with care — from grocery runs to bill payments and beyond.</p>
-        <canvas id="runnerCanvas" aria-label="Animated errand runner with shopping bags"></canvas>
+        <canvas id="runnerCanvas" aria-label="Animated person running errands in the city"></canvas>
         <div class="mini-stats">
-          <div class="stat"><span class="num" data-target="3">0</span>
-            <div class="lbl">Areas Covered</div>
-          </div>
-          <div class="stat"><span class="num" data-target="6">0</span>
-            <div class="lbl">Core Services</div>
-          </div>
-          <div class="stat"><span class="num" data-target="100">0</span>
-            <div class="lbl">% Transparent</div>
-          </div>
+          <div class="stat"><span class="num" data-target="3">0</span><div class="lbl">Areas Covered</div></div>
+          <div class="stat"><span class="num" data-target="6">0</span><div class="lbl">Core Services</div></div>
+          <div class="stat"><span class="num" data-target="100">0</span><div class="lbl">% Transparent</div></div>
         </div>
       </div>
     </div>
@@ -1175,10 +465,8 @@
 
   <div class="marquee-wrap" aria-hidden="true">
     <div class="marquee-inner">
-      <span>🛒 Grocery Shopping</span><span>🎁 Gift Delivery</span><span>📦 Pick Up &amp; Drop Off</span><span>🏦 Bill
-        Payments</span><span>👗 Clothing Shopping</span><span>✅ Any Legit Errand</span>
-      <span>🛒 Grocery Shopping</span><span>🎁 Gift Delivery</span><span>📦 Pick Up &amp; Drop Off</span><span>🏦 Bill
-        Payments</span><span>👗 Clothing Shopping</span><span>✅ Any Legit Errand</span>
+      <span>🛒 Grocery Shopping</span><span>🎁 Gift Delivery</span><span>📦 Pick Up &amp; Drop Off</span><span>🏦 Bill Payments</span><span>👗 Clothing Shopping</span><span>✅ Any Legit Errand</span>
+      <span>🛒 Grocery Shopping</span><span>🎁 Gift Delivery</span><span>📦 Pick Up &amp; Drop Off</span><span>🏦 Bill Payments</span><span>👗 Clothing Shopping</span><span>✅ Any Legit Errand</span>
     </div>
   </div>
 
@@ -1186,8 +474,7 @@
     <div class="sec-hd reveal">
       <div class="eyebrow">What I Do</div>
       <h2 id="svc-h" class="sec-title">Services I <span>Offer</span></h2>
-      <p class="sec-sub">From everyday errands to special deliveries, I've got you covered with care and
-        professionalism.</p>
+      <p class="sec-sub">From everyday errands to special deliveries, I've got you covered with care and professionalism.</p>
     </div>
     <div class="svc-grid">
       <article class="svc-card reveal"><div class="svc-icon">🛒</div><h3>Grocery Shopping</h3><p>From any supermarket or shop of your choice — I pick exactly what you need and deliver it promptly.</p></article>
@@ -1195,7 +482,7 @@
       <article class="svc-card reveal"><div class="svc-icon">🎁</div><h3>Gift Shopping &amp; Delivery</h3><p>Thoughtful gifts sourced and delivered with care — perfect for any occasion.</p></article>
       <article class="svc-card reveal"><div class="svc-icon">📦</div><h3>Pick Up &amp; Drop Off</h3><p>Parcels, documents, and other items collected and delivered safely on your behalf.</p></article>
       <article class="svc-card reveal"><div class="svc-icon">🏦</div><h3>Bill Payments &amp; Queue Services</h3><p>Pay bills, collect items, stand in queues — save your valuable time and energy.</p></article>
-      <article class="svc-card reveal"><div class="svc-icon">✅</div><h3>Any Other Legit Errands</h3><p>Anything legal you need done (no heavy lifting). If it's on your list, it's on mine.</p></article>
+      <article class="svc-card reveal"><div class="svc-icon">✅</div><h3>Any Other Legit Errands</h3><p>Anything legal you need done. If it's on your list, it's on mine.</p></article>
     </div>
   </section>
 
@@ -1217,11 +504,19 @@
     <div class="areas-inner">
       <div class="areas-visual reveal">
         <span class="map-pin">📍</span>
-        <h3 style="font-family:'Playfair Display',serif;color:var(--gold);font-size:22px;margin-bottom:18px">Areas I Cover</h3>
-        <div class="area-tags"><span class="area-tag main">CBD</span><span class="area-tag main">Mbare</span><span class="area-tag main">Granite Side</span><span class="area-tag">And surrounding areas</span></div>
+        <h3 style="font-family:'Playfair Display',serif;color:var(--gold);font-size:21px;margin-bottom:18px;position:relative;z-index:1">Areas I Cover</h3>
+        <div class="area-tags">
+          <span class="area-tag main">CBD</span>
+          <span class="area-tag main">Mbare</span>
+          <span class="area-tag main">Granite Side</span>
+          <span class="area-tag">And surrounding areas</span>
+        </div>
       </div>
       <div class="areas-text">
-        <div class="sec-hd reveal" style="text-align:left"><div class="eyebrow">Why Choose Me</div><h2 class="sec-title">Why Trust <span>Daisy?</span></h2></div>
+        <div class="sec-hd reveal" style="text-align:left">
+          <div class="eyebrow">Why Choose Me</div>
+          <h2 class="sec-title">Why Trust <span>Daisy?</span></h2>
+        </div>
         <ul class="trust-list">
           <li class="reveal"><div class="chk">✓</div><div><strong>Honest &amp; Transparent</strong><span>You get receipts for every single purchase — no hidden costs, ever.</span></div></li>
           <li class="reveal"><div class="chk">✓</div><div><strong>Half Payment First</strong><span>You only pay half before I start. The rest after delivery &amp; receipt confirmation.</span></div></li>
@@ -1234,213 +529,577 @@
   </section>
 
   <section class="contact" id="contact" aria-labelledby="contact-h">
-    <div class="sec-hd reveal"><div class="eyebrow">Get In Touch</div><h2 id="contact-h" class="sec-title">Ready to save your <span>time &amp; stress?</span></h2><p class="sec-sub">Reach out today — let me take those errands off your hands.</p></div>
-    <div class="contact-cards">
-      <a href="https://wa.me/2630718490398" target="_blank" class="contact-card reveal"><div class="icon">📱</div><div class="lbl2">WhatsApp / Call</div><div class="val">0718 490 398</div></a>
-      <a href="tel:+2630780687939" class="contact-card reveal"><div class="icon">📲</div><div class="lbl2">Alternative Number</div><div class="val">0780 687 939</div></a>
-      <a href="mailto:daisysaruchera@gmail.com" class="contact-card reveal"><div class="icon">✉️</div><div class="lbl2">Email</div><div class="val">daisysaruchera@gmail.com</div></a>
+    <div class="sec-hd reveal">
+      <div class="eyebrow">Get In Touch</div>
+      <h2 id="contact-h" class="sec-title">Ready to save your <span>time &amp; stress?</span></h2>
+      <p class="sec-sub">Reach out today — let me take those errands off your hands.</p>
     </div>
-    <div class="note-box reveal"><h4>🔔 Please Note</h4><p>Send me the exact location and shops where you want items from. I don't choose unless you say so. <strong style="color:var(--gold)">Clear instructions = Perfect results!</strong></p></div>
+    <div class="contact-cards">
+      <a href="https://wa.me/2630718490398" target="_blank" rel="noopener noreferrer" class="contact-card reveal">
+        <div class="icon">📱</div><div class="lbl2">WhatsApp / Call</div><div class="val">0718 490 398</div>
+      </a>
+      <a href="tel:+2630780687939" class="contact-card reveal">
+        <div class="icon">📲</div><div class="lbl2">Alternative Number</div><div class="val">0780 687 939</div>
+      </a>
+      <a href="mailto:daisysaruchera@gmail.com" class="contact-card reveal">
+        <div class="icon">✉️</div><div class="lbl2">Email</div><div class="val">daisysaruchera@gmail.com</div>
+      </a>
+    </div>
+    <div class="note-box reveal">
+      <h4>🔔 Please Note</h4>
+      <p>Send me the exact location and shops where you want items from. I don't choose unless you say so. <strong style="color:var(--gold)">Clear instructions = Perfect results!</strong></p>
+    </div>
   </section>
 
-  <footer><p>© 2026 <span>Daisy Concierge</span> — Here to Help, Here to Serve ♥ &nbsp;|&nbsp; Harare, Zimbabwe</p><div class="footer-links"><a href="#services">Services</a><a href="#how">How It Works</a><a href="#areas">Areas</a><a href="#contact">Contact</a></div></footer>
+  <footer>
+    <p>© 2026 <span>Daisy Concierge</span> — Here to Help, Here to Serve ♥ &nbsp;|&nbsp; Harare, Zimbabwe</p>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#how">How It Works</a>
+      <a href="#areas">Areas</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
 
   <a href="https://wa.me/2630718490398" class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">💬</a>
 
- <script>
-    /* ── CANVAS: Person walks street, stops at shops, does errands ── */
-    (function () {
-      const canvas = document.getElementById('runnerCanvas');
-      if (!canvas) return;
-      const ctx = canvas.getContext('2d');
-      const H = 160; canvas.height = H;
-      const GOLD = '#D4A017', GOLDL = '#F0C040', NAVY = '#1A2340', SKIN = '#F4C28A', HAIR = '#3B1F00';
+  <script>
+  /* ══════════════════════════════════════════════
+     REALISTIC HUMAN ANIMATION ENGINE
+     Full skeletal IK with proper gait cycle
+  ══════════════════════════════════════════════ */
+  (function(){
+    const canvas = document.getElementById('runnerCanvas');
+    if(!canvas) return;
+    const ctx = canvas.getContext('2d');
 
-      function setSize() { canvas.width = Math.max(280, canvas.parentElement.clientWidth - 72); }
-      setSize(); window.addEventListener('resize', () => { setSize(); buildShops(); });
+    const GOLD='#D4A017', GOLDL='#F0C040', NAVY='#1A2340';
+    const SKIN='#C68642', SKIN_D='#A0522D', HAIR='#2C1503', SHIRT='#D4A017', PANTS='#1A2340';
+    const SHOE='#222', LIPS='#C0606A';
 
-      const SHOP_DEFS = [
-        { label: 'Grocery', emoji: '🛒', col: '#1B5E20', sign: '#A5D6A7' },
-        { label: 'Gift Shop', emoji: '🎁', col: '#4A148C', sign: '#CE93D8' },
-        { label: 'Bank', emoji: '🏦', col: '#0D47A1', sign: '#90CAF9' },
-        { label: 'Post Office', emoji: '📦', col: '#BF360C', sign: '#FFAB91' },
-      ];
-      let shops = [], floats = [], personX = -50, phase = 'walk', shopIdx = 0, errandTimer = 0, walkT = 0;
-      const ERRAND_DUR = 100;
+    function resize(){
+      canvas.width = Math.max(220, canvas.parentElement.clientWidth - 68);
+    }
+    resize();
+    window.addEventListener('resize', ()=>{ resize(); buildShops(); });
 
-      function buildShops() {
-        const w = canvas.width, sp = w / (SHOP_DEFS.length + 1);
-        shops = SHOP_DEFS.map((d, i) => ({ ...d, x: sp * (i + 1) }));
-      }
-      buildShops();
+    const SHOP_DEFS = [
+      {label:'Grocery', emoji:'🛒', wallCol:'#1B3A1E', roofCol:'#27542B', signCol:'#A5D6A7'},
+      {label:'Gift Shop', emoji:'🎁', wallCol:'#2A1050', roofCol:'#3D177A', signCol:'#CE93D8'},
+      {label:'Bank',      emoji:'🏦', wallCol:'#0C2A5A', roofCol:'#143D82', signCol:'#90CAF9'},
+      {label:'Post',      emoji:'📦', wallCol:'#6B1E08', roofCol:'#9A2C0C', signCol:'#FFAB91'},
+    ];
 
-      function spawnFloat(x) {
-        floats.push({ x, y: H - 55, vy: -1.1, a: 1, em: shops[shopIdx]?.emoji || '✓', sz: 18 });
-      }
+    let shops=[], floats=[], shopIdx=0;
+    let phase='walk'; // 'walk' | 'approach' | 'errand' | 'leave'
+    let errandTimer=0;
+    const ERRAND_DUR=110, APPROACH_DIST=4;
 
-      function drawShop(s, glow) {
-        const sw = 46, sh = 54, sx = s.x - sw / 2, sy = H - 20 - sh;
-        ctx.fillStyle = s.col;
-        ctx.beginPath(); ctx.roundRect(sx, sy, sw, sh, [6, 6, 0, 0]); ctx.fill();
-        ctx.beginPath(); ctx.moveTo(sx - 4, sy); ctx.lineTo(s.x, sy - 11); ctx.lineTo(sx + sw + 4, sy); ctx.closePath(); ctx.fill();
-        ctx.fillStyle = s.sign;
-        ctx.beginPath(); ctx.roundRect(sx + 5, sy + 7, sw - 10, 13, 3); ctx.fill();
-        ctx.fillStyle = '#000'; ctx.font = 'bold 6px sans-serif'; ctx.textAlign = 'center';
-        ctx.fillText(s.label, s.x, sy + 17);
-        ctx.fillStyle = 'rgba(0,0,0,0.35)';
-        ctx.beginPath(); ctx.roundRect(s.x - 8, sy + sh - 23, 16, 23, [4, 4, 0, 0]); ctx.fill();
-        ctx.font = '13px serif'; ctx.textAlign = 'center'; ctx.fillText(s.emoji, s.x, sy + 38);
-        if (glow) {
-          ctx.strokeStyle = 'rgba(212,160,23,0.9)'; ctx.lineWidth = 2.5;
-          ctx.beginPath(); ctx.roundRect(sx - 2, sy - 2, sw + 4, sh + 2, 6); ctx.stroke();
-          const gr = ctx.createRadialGradient(s.x, sy + sh / 2, 5, s.x, sy + sh / 2, 40);
-          gr.addColorStop(0, 'rgba(212,160,23,0.18)'); gr.addColorStop(1, 'transparent');
-          ctx.fillStyle = gr; ctx.beginPath(); ctx.roundRect(sx - 8, sy - 8, sw + 16, sh + 16, 12); ctx.fill();
-        }
-      }
+    // ── Skeletal person state ──
+    const person = {
+      x: -60,
+      y: 0, // set in draw based on canvas.height
+      t: 0, // time tick for gait
+      speed: 1.5,
+      direction: 1, // 1=right, -1=left (unused but future-proof)
+      bags: 0, // number of bags carried
+      phase: 'idle' // 'walk' | 'idle' | 'reach'
+    };
 
-      function drawPerson(px, walking, errand) {
-        const gy = H - 22; ctx.save(); ctx.translate(px, gy);
-        const leg = walking ? Math.sin(walkT * 0.22) * 22 : 0;
-        const arm = walking ? Math.cos(walkT * 0.22) * 20 : (errand ? Math.sin(walkT * 0.14) * 28 - 18 : -10);
-        ctx.globalAlpha = 0.13; ctx.fillStyle = '#000';
-        ctx.beginPath(); ctx.ellipse(0, 2, 13, 4, 0, 0, Math.PI * 2); ctx.fill(); ctx.globalAlpha = 1;
-        // back leg
-        ctx.save(); ctx.rotate((-leg + 10) * Math.PI / 180);
-        ctx.strokeStyle = '#3a3a5c'; ctx.lineWidth = 5; ctx.lineCap = 'round';
-        ctx.beginPath(); ctx.moveTo(0, -6); ctx.lineTo(-3, 23); ctx.stroke();
-        ctx.fillStyle = NAVY; ctx.beginPath(); ctx.ellipse(-7, 26, 8, 3, -0.3, 0, Math.PI * 2); ctx.fill(); ctx.restore();
-        // front leg
-        ctx.save(); ctx.rotate((leg + 10) * Math.PI / 180);
-        ctx.strokeStyle = '#3a3a5c'; ctx.lineWidth = 5; ctx.lineCap = 'round';
-        ctx.beginPath(); ctx.moveTo(0, -6); ctx.lineTo(3, 23); ctx.stroke();
-        ctx.fillStyle = NAVY; ctx.beginPath(); ctx.ellipse(7, 26, 8, 3, 0.3, 0, Math.PI * 2); ctx.fill(); ctx.restore();
-        // torso
-        ctx.fillStyle = GOLD; ctx.beginPath(); ctx.roundRect(-10, -35, 20, 27, 7); ctx.fill();
-        ctx.fillStyle = '#B8860B'; ctx.beginPath(); ctx.moveTo(-4, -35); ctx.lineTo(0, -29); ctx.lineTo(4, -35); ctx.fill();
-        // left arm
-        ctx.save(); ctx.rotate((-arm - 8) * Math.PI / 180);
-        ctx.strokeStyle = SKIN; ctx.lineWidth = 4; ctx.lineCap = 'round';
-        ctx.beginPath(); ctx.moveTo(-9, -25); ctx.lineTo(-18, -10); ctx.stroke();
-        if (!walking) {
-          ctx.fillStyle = GOLD; ctx.strokeStyle = GOLDL; ctx.lineWidth = 1;
-          ctx.beginPath(); ctx.roundRect(-27, -7, 13, 14, 3); ctx.fill(); ctx.stroke();
-          ctx.strokeStyle = GOLDL; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.arc(-20.5, -7, 5, Math.PI, 0); ctx.stroke();
-        }
-        ctx.restore();
-        // right arm
-        ctx.save(); ctx.rotate((arm - 8) * Math.PI / 180);
-        ctx.strokeStyle = SKIN; ctx.lineWidth = 4; ctx.lineCap = 'round';
-        ctx.beginPath(); ctx.moveTo(9, -25); ctx.lineTo(18, -10); ctx.stroke();
-        if (!walking) {
-          ctx.fillStyle = '#B8860B'; ctx.strokeStyle = GOLD; ctx.lineWidth = 1;
-          ctx.beginPath(); ctx.roundRect(12, -8, 12, 13, 3); ctx.fill(); ctx.stroke();
-        }
-        ctx.restore();
-        // head
-        ctx.fillStyle = SKIN; ctx.beginPath(); ctx.arc(0, -46, 12, 0, Math.PI * 2); ctx.fill();
-        ctx.fillStyle = HAIR; ctx.beginPath(); ctx.arc(0, -46, 12, Math.PI, 0); ctx.arc(0, -49, 8, 0, Math.PI, true); ctx.fill();
-        ctx.fillStyle = '#2C1A00'; ctx.beginPath(); ctx.arc(-4.2, -46, 1.7, 0, Math.PI * 2); ctx.fill();
-        ctx.beginPath(); ctx.arc(4.2, -46, 1.7, 0, Math.PI * 2); ctx.fill();
-        ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(-3.5, -46.7, 0.6, 0, Math.PI * 2); ctx.fill();
-        ctx.beginPath(); ctx.arc(5, -46.7, 0.6, 0, Math.PI * 2); ctx.fill();
-        ctx.strokeStyle = '#C0826A'; ctx.lineWidth = 1.4; ctx.lineCap = 'round';
-        if (errand) { ctx.beginPath(); ctx.moveTo(-3, -42.5); ctx.lineTo(3, -42.5); ctx.stroke(); }
-        else { ctx.beginPath(); ctx.arc(0, -42, 3.5, 0.2, Math.PI - 0.2); ctx.stroke(); }
-        // speech bubble during errand
-        if (errand && errandTimer < ERRAND_DUR * 0.65) {
-          const msgs = ['Got it! ✓', 'Done!', 'Here you go!', 'Receipt 🧾'];
-          const txt = msgs[shopIdx % msgs.length];
-          ctx.fillStyle = 'rgba(255,255,255,0.93)'; ctx.strokeStyle = GOLD; ctx.lineWidth = 1.2;
-          const bw = ctx.measureText(txt).width + 14;
-          ctx.beginPath(); ctx.roundRect(8, -69, bw, 18, 5); ctx.fill(); ctx.stroke();
-          ctx.fillStyle = NAVY; ctx.font = 'bold 8px sans-serif'; ctx.textAlign = 'left';
-          ctx.fillText(txt, 15, -56);
-        }
+    // Easing
+    function easeInOut(t){ return t<.5 ? 2*t*t : -1+(4-2*t)*t }
+
+    function buildShops(){
+      const W=canvas.width;
+      const sp = W/(SHOP_DEFS.length+1);
+      shops = SHOP_DEFS.map((d,i)=>({...d, x: Math.round(sp*(i+1))}));
+    }
+    buildShops();
+
+    function spawnFloat(x, emoji){
+      floats.push({x, y:0, vy:-1.3, a:1.0, emoji, t:0});
+    }
+
+    /* ─── Draw one shop ─── */
+    function drawShop(s, active){
+      const W=canvas.width, H=canvas.height;
+      const sw=Math.max(40,Math.min(52, W/8));
+      const sh=Math.round(sw*1.2);
+      const sx=s.x-sw/2, sy=H-22-sh;
+
+      // glow if active
+      if(active){
+        ctx.save();
+        const g=ctx.createRadialGradient(s.x,sy+sh/2,2,s.x,sy+sh/2,sw*1.2);
+        g.addColorStop(0,'rgba(212,160,23,0.22)');
+        g.addColorStop(1,'transparent');
+        ctx.fillStyle=g;
+        ctx.beginPath(); ctx.arc(s.x,sy+sh/2,sw*1.4,0,Math.PI*2); ctx.fill();
         ctx.restore();
       }
 
-      function drawScene() {
-        const w = canvas.width; ctx.clearRect(0, 0, w, H);
-        // sky
-        const sky = ctx.createLinearGradient(0, 0, 0, H * 0.65);
-        sky.addColorStop(0, '#060D1F'); sky.addColorStop(1, '#1A2340');
-        ctx.fillStyle = sky; ctx.beginPath(); ctx.roundRect(0, 0, w, H, 12); ctx.fill();
-        // stars
-        ctx.fillStyle = 'rgba(255,255,255,0.22)';
-        [[.08, .1], [.2, .06], [.35, .13], [.5, .05], [.63, .1], [.77, .07], [.91, .12]].forEach(([sx, sy2]) => {
-          ctx.beginPath(); ctx.arc(sx * w, sy2 * H, 1, 0, Math.PI * 2); ctx.fill();
-        });
-        // ground
-        ctx.fillStyle = '#23233C'; ctx.fillRect(0, H - 20, w, 20);
-        ctx.strokeStyle = 'rgba(212,160,23,0.18)'; ctx.lineWidth = 1;
-        ctx.beginPath(); ctx.moveTo(0, H - 20); ctx.lineTo(w, H - 20); ctx.stroke();
-        ctx.strokeStyle = 'rgba(255,255,255,0.07)'; ctx.lineWidth = 1; ctx.setLineDash([12, 10]);
-        ctx.beginPath(); ctx.moveTo(0, H - 10); ctx.lineTo(w, H - 10); ctx.stroke();
-        ctx.setLineDash([]);
-        // shops
-        shops.forEach((s, i) => drawShop(s, phase === 'errand' && i === shopIdx));
-        // floats
-        floats.forEach(f => { ctx.save(); ctx.globalAlpha = f.a; ctx.font = `${f.sz}px serif`; ctx.textAlign = 'center'; ctx.fillText(f.em, f.x, f.y); ctx.restore(); });
-        // person
-        drawPerson(personX, phase === 'walk', phase === 'errand');
+      // shadow
+      ctx.fillStyle='rgba(0,0,0,0.18)';
+      ctx.beginPath(); ctx.ellipse(s.x, H-18, sw*0.55, 4, 0, 0, Math.PI*2); ctx.fill();
+
+      // wall
+      ctx.fillStyle=s.wallCol;
+      ctx.beginPath(); ctx.roundRect(sx,sy,sw,sh,[4,4,0,0]); ctx.fill();
+
+      // roof/awning
+      ctx.fillStyle=s.roofCol;
+      ctx.beginPath();
+      ctx.moveTo(sx-5,sy); ctx.lineTo(s.x,sy-10); ctx.lineTo(sx+sw+5,sy); ctx.closePath(); ctx.fill();
+
+      // sign
+      const sw2=sw-10, sh2=12;
+      ctx.fillStyle=s.signCol;
+      ctx.beginPath(); ctx.roundRect(sx+5,sy+7,sw2,sh2,[3]); ctx.fill();
+      ctx.fillStyle='rgba(0,0,0,0.6)'; ctx.font=`bold ${Math.max(6,sw*0.13)}px sans-serif`;
+      ctx.textAlign='center'; ctx.fillText(s.label,s.x,sy+7+sh2*0.75);
+
+      // door
+      ctx.fillStyle='rgba(0,0,0,0.4)';
+      ctx.beginPath(); ctx.roundRect(s.x-7,sy+sh-20,14,20,[3,3,0,0]); ctx.fill();
+
+      // window
+      ctx.fillStyle='rgba(135,206,250,0.25)';
+      ctx.strokeStyle='rgba(255,255,255,0.15)'; ctx.lineWidth=1;
+      ctx.beginPath(); ctx.roundRect(sx+4,sy+sh-30,sw*0.38,10,[2]); ctx.fill(); ctx.stroke();
+      ctx.beginPath(); ctx.roundRect(sx+sw-sw*0.38-4,sy+sh-30,sw*0.38,10,[2]); ctx.fill(); ctx.stroke();
+
+      // emoji sign
+      ctx.font=`${Math.max(14,sw*0.33)}px serif`; ctx.textAlign='center';
+      ctx.fillText(s.emoji, s.x, sy+sh-28);
+
+      if(active){
+        ctx.strokeStyle='rgba(212,160,23,0.85)'; ctx.lineWidth=2;
+        ctx.beginPath(); ctx.roundRect(sx-2,sy-2,sw+4,sh+2,[5,5,0,0]); ctx.stroke();
+      }
+    }
+
+    /* ─── REALISTIC SKELETAL PERSON ─── */
+    function drawPerson(px, H, tick, isWalking, isReaching, bags){
+      const groundY = H - 22;
+      ctx.save();
+      ctx.translate(Math.round(px), groundY);
+
+      const t = tick * 0.055; // gait phase in radians
+      const bobY = isWalking ? Math.sin(t*2)*2.5 : 0;
+      const leanX = isWalking ? Math.sin(t)*1.5 : 0;
+      const sway  = isWalking ? Math.cos(t)*1.0 : 0;
+
+      // body measurements (scale with canvas)
+      const scale = Math.max(0.7, Math.min(1.0, canvas.width/300));
+      const FS = (v)=>v*scale;
+
+      const torsoH = FS(26), legL = FS(28), headR = FS(10);
+      const shoulderW = FS(14), hipW = FS(10);
+      const upperArmL = FS(14), foreArmL = FS(12);
+      const thighL = FS(15), shinL = FS(13), footL = FS(9);
+
+      // ── shadow ──
+      ctx.globalAlpha=0.12; ctx.fillStyle='#000';
+      ctx.beginPath(); ctx.ellipse(0,2,FS(14),FS(4),0,0,Math.PI*2); ctx.fill();
+      ctx.globalAlpha=1;
+
+      // ── gait angles ──
+      const LhipA  = isWalking ? Math.sin(t)*30   : (isReaching ? -20 : 0);
+      const RhipA  = isWalking ? Math.sin(t+Math.PI)*30 : (isReaching ? 15 : 0);
+      const LkneeA = isWalking ? Math.max(0,Math.sin(t+0.4))*38 : 0;
+      const RkneeA = isWalking ? Math.max(0,Math.sin(t+Math.PI+0.4))*38 : 0;
+
+      // arms: natural opposing swing when walking
+      const LArmA = isWalking ? Math.sin(t+Math.PI)*28 : (isReaching ? -65 : -12);
+      const RArmA = isWalking ? Math.sin(t)*28 : (bags>0 ? 40 : (isReaching ? -25 : 12));
+      const LForeA = isWalking ? 15 : (isReaching ? 40 : 5);
+      const RForeA = isWalking ? 15 : (bags>0 ? 60 : 10);
+
+      // ── draw back leg (drawn first so it's behind body) ──
+      drawLeg(ctx, isWalking?RhipA:LhipA, isWalking?RkneeA:LkneeA, thighL, shinL, footL, FS, PANTS, SHOE, true);
+
+      // ── torso ──
+      ctx.save();
+      ctx.translate(leanX, bobY);
+
+      // hips
+      ctx.fillStyle=PANTS;
+      ctx.beginPath(); ctx.roundRect(-hipW/2, -torsoH*0.05, hipW, FS(8),[3]); ctx.fill();
+
+      // shirt/torso body
+      ctx.fillStyle=SHIRT;
+      ctx.beginPath(); ctx.roundRect(-shoulderW/2, -torsoH, shoulderW, torsoH,[FS(5),FS(5),FS(3),FS(3)]); ctx.fill();
+
+      // collar detail
+      ctx.fillStyle='rgba(0,0,0,0.2)';
+      ctx.beginPath(); ctx.moveTo(-FS(4),-torsoH); ctx.lineTo(0,-torsoH+FS(7)); ctx.lineTo(FS(4),-torsoH); ctx.closePath(); ctx.fill();
+
+      // ── neck ──
+      ctx.fillStyle=SKIN;
+      ctx.beginPath(); ctx.roundRect(-FS(3),-torsoH-FS(5),FS(6),FS(7),[2]); ctx.fill();
+
+      // ── head ──
+      // head shadow/depth
+      ctx.fillStyle=SKIN_D;
+      ctx.beginPath(); ctx.ellipse(FS(2),-torsoH-headR-FS(3),headR,headR*0.95,0,0,Math.PI*2); ctx.fill();
+      // main head
+      ctx.fillStyle=SKIN;
+      ctx.beginPath(); ctx.ellipse(0,-torsoH-headR-FS(5),headR,headR*0.97,0,0,Math.PI*2); ctx.fill();
+
+      // hair
+      ctx.fillStyle=HAIR;
+      ctx.beginPath(); ctx.arc(0,-torsoH-headR*1.1-FS(5),headR*0.98,Math.PI,0); ctx.fill();
+      ctx.beginPath(); ctx.arc(-headR*0.8,-torsoH-headR-FS(4),headR*0.45,Math.PI,0); ctx.fill();
+      // bun
+      ctx.fillStyle=HAIR;
+      ctx.beginPath(); ctx.arc(headR*0.5,-torsoH-headR*1.9-FS(5),FS(4.5),0,Math.PI*2); ctx.fill();
+
+      // eyes
+      const eyeY=-torsoH-headR-FS(5);
+      ctx.fillStyle='#fff';
+      ctx.beginPath(); ctx.ellipse(-FS(3.5),eyeY,FS(2.5),FS(1.8),0,0,Math.PI*2); ctx.fill();
+      ctx.beginPath(); ctx.ellipse(FS(3.5),eyeY,FS(2.5),FS(1.8),0,0,Math.PI*2); ctx.fill();
+      ctx.fillStyle='#1a1a2e';
+      ctx.beginPath(); ctx.arc(-FS(3),eyeY,FS(1.2),0,Math.PI*2); ctx.fill();
+      ctx.beginPath(); ctx.arc(FS(4),eyeY,FS(1.2),0,Math.PI*2); ctx.fill();
+      ctx.fillStyle='rgba(255,255,255,0.85)';
+      ctx.beginPath(); ctx.arc(-FS(2.3),eyeY-FS(0.5),FS(0.5),0,Math.PI*2); ctx.fill();
+      ctx.beginPath(); ctx.arc(FS(4.7),eyeY-FS(0.5),FS(0.5),0,Math.PI*2); ctx.fill();
+
+      // eyebrows
+      ctx.strokeStyle=HAIR; ctx.lineWidth=FS(1.2); ctx.lineCap='round';
+      ctx.beginPath(); ctx.moveTo(-FS(5.5),eyeY-FS(2.8)); ctx.lineTo(-FS(1.2),eyeY-FS(3.3)); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(FS(1.8),eyeY-FS(3.3)); ctx.lineTo(FS(5.8),eyeY-FS(2.8)); ctx.stroke();
+
+      // nose
+      ctx.fillStyle=SKIN_D;
+      ctx.beginPath(); ctx.arc(FS(0.8),eyeY+FS(3),FS(1.2),0,Math.PI*2); ctx.fill();
+
+      // mouth
+      ctx.strokeStyle=LIPS; ctx.lineWidth=FS(1.3); ctx.lineCap='round';
+      if(isReaching){
+        // "O" surprised mouth
+        ctx.fillStyle=LIPS;
+        ctx.beginPath(); ctx.ellipse(0,eyeY+FS(5.5),FS(2),FS(1.5),0,0,Math.PI*2); ctx.fill();
+      } else {
+        ctx.beginPath(); ctx.arc(0,eyeY+FS(4.5),FS(2.5),0.2,Math.PI-0.2); ctx.stroke();
       }
 
-      function frame() {
-        walkT++;
-        if (phase === 'walk') {
-          personX += 1.4;
-          const tgt = shopIdx < shops.length ? shops[shopIdx].x : canvas.width + 70;
-          if (personX >= tgt) {
-            if (shopIdx < shops.length) { phase = 'errand'; errandTimer = 0; personX = shops[shopIdx].x; }
-          }
-          if (personX > canvas.width + 70) { personX = -50; shopIdx = 0; phase = 'walk'; floats = []; }
-        } else if (phase === 'errand') {
-          errandTimer++;
-          if (errandTimer === 22) spawnFloat(personX);
-          if (errandTimer === 50) spawnFloat(personX + 10);
-          if (errandTimer >= ERRAND_DUR) { shopIdx++; phase = 'walk'; }
-        }
-        floats.forEach(f => { f.y += f.vy; f.a -= 0.012; });
-        floats = floats.filter(f => f.a > 0);
-        drawScene();
-        requestAnimationFrame(frame);
+      // earring (small gold dot)
+      ctx.fillStyle=GOLD;
+      ctx.beginPath(); ctx.arc(-headR,eyeY+FS(1),FS(1.5),0,Math.PI*2); ctx.fill();
+
+      // ── back arm (behind torso, drawn before) — actually draw front arm here ──
+      drawArm(ctx, RArmA, RForeA, upperArmL, foreArmL, FS, SKIN, bags>0, bags, true);
+      drawArm(ctx, LArmA, LForeA, upperArmL, foreArmL, FS, SKIN, isReaching, 0, false);
+
+      ctx.restore(); // end torso translate
+
+      // ── front leg (in front of body) ──
+      drawLeg(ctx, isWalking?LhipA:RhipA, isWalking?LkneeA:RkneeA, thighL, shinL, footL, FS, PANTS, SHOE, false);
+    }
+
+    function drawLeg(ctx, hipAngle, kneeAngle, thighL, shinL, footL, FS, pantCol, shoeCol, isBack){
+      ctx.save();
+      ctx.globalAlpha = isBack ? 0.65 : 1;
+      const hipRad = (hipAngle*Math.PI)/180;
+      const kneeRad = (kneeAngle*Math.PI)/180;
+      const ox = isBack ? -FS(3) : FS(3);
+
+      ctx.save();
+      ctx.translate(ox, 0);
+
+      // thigh
+      ctx.strokeStyle=pantCol; ctx.lineWidth=FS(7); ctx.lineCap='round';
+      const kx = Math.sin(hipRad)*thighL;
+      const ky = Math.cos(hipRad)*thighL;
+      ctx.beginPath(); ctx.moveTo(0,0); ctx.lineTo(kx,ky); ctx.stroke();
+
+      // shin
+      const totalKneeAngle = hipAngle + kneeAngle;
+      const skRad = (totalKneeAngle*Math.PI)/180;
+      const fx = kx + Math.sin(skRad)*shinL;
+      const fy = ky + Math.cos(skRad)*shinL;
+      ctx.lineWidth=FS(5.5);
+      ctx.strokeStyle='#2C3E50';
+      ctx.beginPath(); ctx.moveTo(kx,ky); ctx.lineTo(fx,fy); ctx.stroke();
+
+      // shoe
+      ctx.fillStyle=shoeCol;
+      const shoeAngle = Math.atan2(fx-kx, fy-ky);
+      ctx.save();
+      ctx.translate(fx,fy);
+      ctx.rotate(shoeAngle);
+      ctx.beginPath(); ctx.roundRect(-FS(3),-FS(2.5),footL+FS(3),FS(5),[FS(2),FS(3),FS(1),FS(1)]); ctx.fill();
+      // sole highlight
+      ctx.fillStyle='rgba(255,255,255,0.1)';
+      ctx.beginPath(); ctx.roundRect(-FS(2.5),-FS(2),footL+FS(1),FS(2),[FS(1)]); ctx.fill();
+      ctx.restore();
+
+      ctx.restore();
+      ctx.restore();
+    }
+
+    function drawArm(ctx, upperAngle, foreAngle, upperL, foreL, FS, skinCol, hasItem, bagCount, isRight){
+      ctx.save();
+      const torsoH=FS(26);
+      const ox = isRight ? FS(14) : -FS(14);
+      ctx.translate(ox, -torsoH+FS(4));
+
+      const uRad = (upperAngle*Math.PI)/180;
+
+      // upper arm
+      ctx.strokeStyle=skinCol; ctx.lineWidth=FS(5); ctx.lineCap='round';
+      const ex = Math.sin(uRad)*upperL;
+      const ey = Math.cos(uRad)*upperL;
+      ctx.beginPath(); ctx.moveTo(0,0); ctx.lineTo(ex,ey); ctx.stroke();
+
+      // sleeve
+      ctx.strokeStyle = isRight ? '#B8860B' : '#B8860B';
+      ctx.lineWidth=FS(5.5);
+      ctx.beginPath(); ctx.moveTo(0,0); ctx.lineTo(ex*0.55,ey*0.55); ctx.stroke();
+
+      // forearm
+      const totalAngle = upperAngle + foreAngle;
+      const fRad = (totalAngle*Math.PI)/180;
+      const fx = ex + Math.sin(fRad)*foreL;
+      const fy = ey + Math.cos(fRad)*foreL;
+      ctx.strokeStyle=skinCol; ctx.lineWidth=FS(4); ctx.lineCap='round';
+      ctx.beginPath(); ctx.moveTo(ex,ey); ctx.lineTo(fx,fy); ctx.stroke();
+
+      // hand
+      ctx.fillStyle=skinCol;
+      ctx.beginPath(); ctx.arc(fx,fy,FS(2.8),0,Math.PI*2); ctx.fill();
+
+      // item in hand
+      if(hasItem && bagCount>0){
+        ctx.save();
+        ctx.translate(fx,fy+FS(2));
+        // shopping bag
+        ctx.fillStyle=GOLD; ctx.strokeStyle=GOLDL; ctx.lineWidth=FS(0.8);
+        ctx.beginPath(); ctx.roundRect(-FS(5),FS(1),FS(10),FS(11),[FS(2)]); ctx.fill(); ctx.stroke();
+        // handle
+        ctx.strokeStyle=GOLDL; ctx.lineWidth=FS(1.5); ctx.lineCap='round';
+        ctx.beginPath(); ctx.arc(-FS(2),FS(1.5),FS(2),Math.PI,0); ctx.stroke();
+        ctx.beginPath(); ctx.arc(FS(2),FS(1.5),FS(2),Math.PI,0); ctx.stroke();
+        // D logo on bag
+        ctx.fillStyle=NAVY; ctx.font=`bold ${FS(7)}px serif`; ctx.textAlign='center';
+        ctx.fillText('D',0,FS(9));
+        ctx.restore();
       }
-      frame();
-    })();
 
+      ctx.restore();
+    }
 
-    /* ── PARTICLES ── */
-    (function () {
-      const c = document.getElementById('particles');
-      if (!c) return;
-      for (let i = 0; i < 18; i++) {
-        const p = document.createElement('div');
-        p.className = 'particle';
-        const s = 4 + Math.random() * 16;
-        Object.assign(p.style, { width: s + 'px', height: s + 'px', left: Math.random() * 100 + '%', animationDuration: (8 + Math.random() * 14) + 's', animationDelay: Math.random() * 12 + 's', opacity: 0.1 + Math.random() * 0.18 });
-        c.appendChild(p);
-      }
-    })();
+    /* ─── Scene ─── */
+    function drawScene(){
+      const W=canvas.width, H=canvas.height;
+      ctx.clearRect(0,0,W,H);
 
-    /* ── SCROLL REVEAL & COUNTER ── */
-    const io = new IntersectionObserver(entries => {
-      entries.forEach((e, i) => { if (e.isIntersecting) { setTimeout(() => e.target.classList.add('visible'), i * 90); io.unobserve(e.target); } });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.reveal').forEach(r => io.observe(r));
+      // sky gradient
+      ctx.fillStyle=NAVY;
+      ctx.beginPath(); ctx.roundRect(0,0,W,H,[10]); ctx.fill();
 
-    const cio = new IntersectionObserver(entries => {
-      entries.forEach(e => {
-        if (!e.isIntersecting) return;
-        const el = e.target, target = +el.dataset.target, suffix = target === 100 ? '+' : '';
-        let cur = 0; const step = target / 40;
-        const tmr = setInterval(() => { cur = Math.min(cur + step, target); el.textContent = Math.floor(cur) + suffix; if (cur >= target) clearInterval(tmr); }, 28);
-        cio.unobserve(el);
+      // ambient gradient
+      const skyG=ctx.createLinearGradient(0,0,0,H*0.7);
+      skyG.addColorStop(0,'rgba(5,10,25,0.7)');
+      skyG.addColorStop(1,'rgba(26,35,64,0)');
+      ctx.fillStyle=skyG; ctx.fillRect(0,0,W,H);
+
+      // stars (fixed positions)
+      const stars=[[.07,.09],[.18,.05],[.32,.12],[.48,.04],[.61,.09],[.75,.06],[.89,.11],[.25,.17],[.55,.14],[.82,.08]];
+      ctx.fillStyle='rgba(255,255,255,0.3)';
+      stars.forEach(([sx,sy])=>{
+        const r=Math.random()<0.3?1.2:0.8;
+        ctx.beginPath(); ctx.arc(sx*W,sy*H,r,0,Math.PI*2); ctx.fill();
       });
-    }, { threshold: 0.5 });
-    document.querySelectorAll('.num[data-target]').forEach(c => cio.observe(c));
 
-    window.addEventListener('scroll', () => { document.getElementById('mainNav').classList.toggle('scrolled', window.scrollY > 60); });
+      // moon
+      ctx.fillStyle='rgba(255,245,180,0.7)';
+      ctx.beginPath(); ctx.arc(W*0.88,H*0.12,8,0,Math.PI*2); ctx.fill();
+      ctx.fillStyle=NAVY;
+      ctx.beginPath(); ctx.arc(W*0.885+3,H*0.12,6.5,0,Math.PI*2); ctx.fill();
+
+      // buildings (background)
+      const buildingColors=['rgba(20,30,55,0.9)','rgba(15,25,48,0.9)','rgba(22,33,60,0.9)'];
+      const bPositions=[{x:W*.05,w:W*.1,h:H*.35},{x:W*.17,w:W*.08,h:H*.28},{x:W*.75,w:W*.12,h:H*.32},{x:W*.88,w:W*.09,h:H*.26}];
+      bPositions.forEach((b,i)=>{
+        ctx.fillStyle=buildingColors[i%3];
+        ctx.fillRect(b.x,H-20-b.h,b.w,b.h);
+        // windows
+        ctx.fillStyle='rgba(255,220,100,0.2)';
+        for(let row=0;row<Math.floor(b.h/10)-1;row++){
+          for(let col=0;col<Math.floor(b.w/8)-1;col++){
+            if(Math.random()<0.5) continue;
+            ctx.fillRect(b.x+col*8+3,H-20-b.h+row*10+3,4,5);
+          }
+        }
+      });
+
+      // ground
+      ctx.fillStyle='#1C1C2E';
+      ctx.fillRect(0,H-22,W,22);
+      // pavement line
+      ctx.strokeStyle='rgba(212,160,23,0.15)'; ctx.lineWidth=1;
+      ctx.beginPath(); ctx.moveTo(0,H-22); ctx.lineTo(W,H-22); ctx.stroke();
+      // road markings
+      ctx.strokeStyle='rgba(255,255,255,0.06)'; ctx.lineWidth=1; ctx.setLineDash([10,12]);
+      ctx.beginPath(); ctx.moveTo(0,H-10); ctx.lineTo(W,H-10); ctx.stroke();
+      ctx.setLineDash([]);
+
+      // shops
+      shops.forEach((s,i)=>drawShop(s, phase==='errand' && i===shopIdx));
+
+      // floating emojis
+      floats.forEach(f=>{
+        ctx.save(); ctx.globalAlpha=f.a;
+        ctx.font=`${Math.max(14,16)}px serif`; ctx.textAlign='center';
+        ctx.fillText(f.emoji, f.x, f.y);
+        ctx.restore();
+      });
+
+      // person
+      person.y = canvas.height;
+      drawPerson(
+        person.x, canvas.height, person.t,
+        phase==='walk',
+        phase==='errand',
+        person.bags
+      );
+
+      // speech bubble during errand
+      if(phase==='errand' && errandTimer < ERRAND_DUR*0.55 && shopIdx<shops.length){
+        const msgs=['Got it! ✓','On my way!','Done!','Receipt 🧾','Here you go!'];
+        const txt = msgs[shopIdx % msgs.length];
+        const bx=person.x+14, by=canvas.height-22-FS_global(62);
+        const tw=ctx.measureText(txt).width;
+        const bw=tw+16, bh=20;
+        ctx.fillStyle='rgba(255,255,255,0.95)';
+        ctx.strokeStyle=GOLD; ctx.lineWidth=1.5;
+        ctx.beginPath(); ctx.roundRect(bx,by,bw,bh,[6]); ctx.fill(); ctx.stroke();
+        // tail
+        ctx.fillStyle='rgba(255,255,255,0.95)';
+        ctx.beginPath(); ctx.moveTo(bx+6,by+bh); ctx.lineTo(bx,by+bh+6); ctx.lineTo(bx+14,by+bh); ctx.fill();
+        ctx.fillStyle='#1A1A2E'; ctx.font=`bold 9px sans-serif`; ctx.textAlign='left';
+        ctx.fillText(txt, bx+8, by+bh*0.7);
+      }
+    }
+
+    function FS_global(v){ return Math.max(0.7,Math.min(1.0,canvas.width/300))*v; }
+
+    /* ─── Main loop ─── */
+    function frame(){
+      person.t++;
+
+      if(phase==='walk'){
+        person.x += person.speed;
+        const target = shopIdx < shops.length ? shops[shopIdx].x - APPROACH_DIST*16 : canvas.width+80;
+
+        if(shopIdx < shops.length && person.x >= target){
+          phase='approach';
+          person.speed=0.6;
+        }
+        if(person.x > canvas.width+80){
+          // reset
+          person.x = -60;
+          shopIdx = 0;
+          phase = 'walk';
+          person.speed = 1.5;
+          person.bags = 0;
+          floats = [];
+        }
+      }
+      else if(phase==='approach'){
+        person.x += person.speed;
+        if(shopIdx < shops.length && person.x >= shops[shopIdx].x - 2){
+          person.x = shops[shopIdx].x - 2;
+          phase = 'errand';
+          errandTimer = 0;
+          person.speed = 0;
+        }
+      }
+      else if(phase==='errand'){
+        errandTimer++;
+        if(errandTimer===20) spawnFloat(person.x, shops[shopIdx]?.emoji||'✓');
+        if(errandTimer===55) spawnFloat(person.x+8, '✓');
+        if(errandTimer===75) spawnFloat(person.x-5, '⭐');
+
+        if(errandTimer>=ERRAND_DUR){
+          person.bags = Math.min(person.bags+1, 2);
+          shopIdx++;
+          phase = 'walk';
+          person.speed = 1.5;
+        }
+      }
+
+      // update floats
+      floats.forEach(f=>{ f.y+=f.vy; f.a-=0.012; });
+      floats = floats.filter(f=>f.a>0);
+
+      drawScene();
+      requestAnimationFrame(frame);
+    }
+    frame();
+  })();
+
+  /* ─── NAV hamburger ─── */
+  (function(){
+    const btn=document.getElementById('navToggle');
+    const links=document.getElementById('navLinks');
+    if(!btn||!links) return;
+    btn.addEventListener('click',()=>{
+      const open=links.classList.toggle('open');
+      btn.classList.toggle('open',open);
+      btn.setAttribute('aria-expanded',open);
+    });
+    links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+      links.classList.remove('open');
+      btn.classList.remove('open');
+      btn.setAttribute('aria-expanded','false');
+    }));
+  })();
+
+  /* ─── Particles ─── */
+  (function(){
+    const c=document.getElementById('particles');
+    if(!c) return;
+    for(let i=0;i<16;i++){
+      const p=document.createElement('div'); p.className='particle';
+      const s=4+Math.random()*14;
+      Object.assign(p.style,{
+        width:s+'px',height:s+'px',left:Math.random()*100+'%',
+        animationDuration:(8+Math.random()*14)+'s',
+        animationDelay:Math.random()*12+'s',
+        opacity:0.08+Math.random()*0.16
+      });
+      c.appendChild(p);
+    }
+  })();
+
+  /* ─── Scroll reveal ─── */
+  const io=new IntersectionObserver(entries=>{
+    entries.forEach((e,i)=>{
+      if(e.isIntersecting){ setTimeout(()=>e.target.classList.add('visible'),i*80); io.unobserve(e.target); }
+    });
+  },{threshold:0.1});
+  document.querySelectorAll('.reveal').forEach(r=>io.observe(r));
+
+  /* ─── Counter animation ─── */
+  const cio=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(!e.isIntersecting) return;
+      const el=e.target, target=+el.dataset.target, suffix=target===100?'+':'';
+      let cur=0; const step=target/40;
+      const tmr=setInterval(()=>{ cur=Math.min(cur+step,target); el.textContent=Math.floor(cur)+suffix; if(cur>=target) clearInterval(tmr); },28);
+      cio.unobserve(el);
+    });
+  },{threshold:0.5});
+  document.querySelectorAll('.num[data-target]').forEach(c=>cio.observe(c));
+
+  /* ─── Nav scroll ─── */
+  window.addEventListener('scroll',()=>{
+    document.getElementById('mainNav').classList.toggle('scrolled',window.scrollY>60);
+  },{passive:true});
   </script>
 </body>
 </html>
